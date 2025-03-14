@@ -1,0 +1,177 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000000;
+  padding: 30px;
+  color: #fdfdfd;
+  background-image: url('./img/b.jpg');
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1));
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px); /* Adiciona um efeito de desfoque no fundo */
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  top: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+  top: 10px;  
+}
+
+input {
+  box-sizing: border-box;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+input:focus {
+  border-color: #1c2bb1;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+button {
+  background-color: #1c2bb1;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 1;
+  background-color: #15238b;
+}
+
+.todo-list {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ffffff83;
+}
+
+.todo {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 12px 18px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+.todo:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.complete {
+  background-color: #28b328;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.remove {
+  background-color: #c51a14;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+input, select {
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
+  background-color: rgba(29, 27, 27, 0.342);
+  color: #6d6d6dbe;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+input:focus, select:focus {
+  border-color: #1c2bb1;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.filter, .search {
+  border-bottom: 1px solid #ffffff83;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.filter-options div {
+  flex: 1 1 0;
+}
+
+.aaa {
+  width: 400px;
+  height: 55px;
+}
+
+.nomee, .pes {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 15px;
+  padding: 12px 15px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.nomee:focus, .pes:focus {
+  border-color: #1c2bb1;
+  background-color: rgba(255, 255, 255, 0.2);
+}
